@@ -25,7 +25,9 @@ var TodoApp = React.createClass({
 		var {todos} = this.state;
 		return (
 			<div>
+
 				<TodoList todos={todos} />
+
 			</div>
 		)
 	}
