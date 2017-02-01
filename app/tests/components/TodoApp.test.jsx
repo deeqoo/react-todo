@@ -23,6 +23,7 @@ describe('TodoApp', ()=> {
   it('should toggle completed value when handleToggle called', () => {
     var todoData = {
       id: 11,
+      text: "Test features",
       completed: false
     };
 
