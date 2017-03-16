@@ -26,7 +26,6 @@ ReactDOM.render(
         <IndexRoute component={LoginPage} />
       </Route>
     </Router>
-    // <TodoApp />
   </Provider>,
   document.getElementById("app")
 );
